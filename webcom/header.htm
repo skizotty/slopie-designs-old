@@ -1,0 +1,33 @@
+					
+				<div id='header-file-loader'>
+						<h3 id="header-text" class="pull-left">
+							<script>
+								(function namePageGen() {
+									var qq = (typeof _qi == 'undefined');
+									if(qq){
+										var url = document.location.href;
+										if(url.indexOf('portfolio')!=-1){var title='Portfolio'}
+										else if(url.indexOf('contact')!=-1){var title='Contact Us'}
+										else {var title = 'Slope Designs'};
+										var _qi;
+										document.getElementById('header-text').innerHTML = title;}
+								})();
+							</script>
+						</h3>
+						<nav class="navbar navbar-light pull-right">
+							<div  id="navbarNav">
+								<ul class="navbar-nav" id="nav-link-thing">
+									<li class="nav-item">
+										<a class="nav-link" href="./">home</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="./portfolio.htm">portfolio</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="./contact.htm">contact</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+			</div>
+					

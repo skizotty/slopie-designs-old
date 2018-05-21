@@ -1,0 +1,255 @@
+body {
+  background-color: cccccc;
+}
+#main-body {
+ font-family: 'Poiret One', cursive;
+ background-color:#c1c1c1;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  text-decoration-color: #D3D3D3;
+}
+
+p {
+	line-height: 1.5;
+  font-family: 'Poiret One', cursive;
+  font-size: 1.2em;
+}
+
+h1 {
+  font-family: 'Poiret One', cursive;
+  color:#F8F8FF;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: 'Poiret One', cursive;
+  font-size: 2em;
+  font-weight: bold;
+}
+#header-text {
+  font-size: 2.5em;
+  font-weight: bold;
+  padding-left:3.5vw;
+  padding-top:.75vw;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+hr {
+  width:97%;
+  float:left;
+  padding: 0px;
+  margin: 0px;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding:3px 20px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #D3D3D3;
+  margin: auto;
+
+}
+
+#header {
+	background-color:white;
+	width:100vw;
+	height:60px;
+	float:top;
+	position:fixed;
+  padding: 5px 10px 79px 10px;
+	z-index:2;
+
+}
+
+#header2 {
+	background-size:100%;
+	background-repeat: no-repeat;
+	width:100vw;
+	float:top;
+	margin:auto;
+	height:25vw;
+  font-family: 'Poiret One', cursive;
+  clear:all;
+}
+
+#spacer {
+  margin:auto;
+  margin-top:-20px;
+}
+
+#body-content {
+  width:96%;
+	margin-top:25px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #D3D3D3;
+  vertical-align:bottom;
+  margin:auto;
+
+}
+
+#navbar {
+    float: top;
+    margin-bottom:none;
+    margin-right:25px;
+}
+
+
+
+#jumbotron-one {
+  background-image: url("http://www.scottsorci.com/Images/background%20image%20alt.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height:27vw;
+  width:100vw;
+  margin:auto;
+}
+
+.nav-link:hover {
+  text-decoration:none;
+  font-size: 1.4em;
+  color:gray;
+
+}
+.navbar-nav {
+  padding-top:20px;
+  margin:2.5em;
+}
+.nav-link {
+  font-size: 1.4em;
+}
+
+#footer {
+	font-family: 'Poiret One', cursive;
+	font-size: 1.1em;
+	width:100vw;
+  text-align:center;
+  background-color:white;
+  padding: 0px 10px 0px 10px;
+  margin: 15px 0px 25px 0px;
+  font-weight: bold;
+}
+.bubble1 {
+  border-radius: 100%;
+  border: dashed 1px #333;
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  text-align: center;
+  display:inline-block;
+  vertical-align: middle;
+  padding: 50px 0;
+}
+.bubble1:hover {
+  border: solid 1px;
+}
+.bubble1-content {
+  font-size:1.6em;
+  padding: 25px;
+  text-align: center;
+}
+
+.bubble2-content {
+  font-size:1.6em;
+  text-align: left;
+  background-color:white;
+  opacity: .8;
+  padding-left:15px;
+  margin-top:10vw;
+}
+
+.bubble2-content:hover {
+}
+
+
+.bubble-img {
+  width:50px;
+}
+.row {
+  margin:auto;
+  text-align:center;
+}
+#bigger-spacer {
+  height:84px;
+}
+
+ul > li {
+  text-decoration: none;
+  font-size: 1.2em;
+}
+#header-img {
+  margin-left:40px;
+}
+#banner-text {
+  font-size:3em;
+}
+
+.page-title {
+  margin-right:25px;
+}
+#content-of-body {
+  margin:auto;
+  padding:25px;
+  text-align: justify ;
+  margin-right: 25px;
+}
+
+.view-port {
+  width:29vw;
+  height:15vw;
+  background-color: none;
+  margin:auto;
+  border: dashed 1px;
+  margin:15px;
+  background-size:29vw;
+  background-repeat: no-repeat;
+  margin:auto;
+  margin-bottom: 35px;
+}
+
+.view-port:hover {
+  border: solid 1px;
+}
+
+#link {
+  text-decoration: none;
+  color:black;
+  text-align: left;
+}
+
+#ex1 {
+  background-image: url('./images/scott.png');
+
+}
+#ex2 {
+  background-image: url('./images/recipes-studio.png');
+}
+
+#ex3 {
+  background-image: url('./images/milliondollar.png');
+}
+
+#header-file-loader {
+	display:none;
+	}
